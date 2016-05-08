@@ -22,7 +22,9 @@ public class CalculatriceImpl implements ICalculatrice {
 	 */
 	public int division(int pDividende, int pDiviseur) {
 		
-		return pDividende/pDiviseur;
+		final int vRes = pDividende/pDiviseur;
+		
+		return vRes;
 	}
 
 }
