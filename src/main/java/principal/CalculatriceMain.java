@@ -14,6 +14,8 @@ public class CalculatriceMain {
 
 		System.out.println(calculatrice.addition(10, 0));
 		
+		//TATTOO-696
+		System.out.println(calculatrice.soustraction(10, 5));
 	}
 
 }

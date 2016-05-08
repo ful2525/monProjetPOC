@@ -9,4 +9,12 @@ public class CalculatriceImpl implements ICalculatrice {
 		return 0;
 	}
 
+	/**
+	 * {@inheritDoc}
+	 */
+	public int soustraction(int pOp1, int pOp2) {
+		
+		return pOp1 - pOp2;
+	}
+
 }
