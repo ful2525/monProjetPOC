@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.toto.projet</groupId>
   <artifactId>monProjetPOC</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.0-1</version>
   <build>
    <plugins>
           <plugin>
@@ -10,7 +10,6 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5</version>
         <configuration>
-          <!-- or whatever version you use -->
           <source>1.5</source>
           <target>1.5</target>
         </configuration>
