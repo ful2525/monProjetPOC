@@ -17,4 +17,12 @@ public class CalculatriceImpl implements ICalculatrice {
 		return pOp1 - pOp2;
 	}
 
+	/**
+	 * {@inheritDoc}
+	 */
+	public int division(int pDividende, int pDiviseur) {
+		
+		return pDividende/pDiviseur;
+	}
+
 }
